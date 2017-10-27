@@ -19,6 +19,33 @@ const config = {
     inline: true,
     port: 3000, // Port Number
     host: 'localhost', // Change to '0.0.0.0' for external facing server
+    noInfo: false,
+    stats: {
+        assets: false,
+        cached: false,
+        cachedAssets: false,
+        children: false,
+        chunks: false,
+        chunkModules: false,
+        chunkOrigins: false,
+        colors: true,
+        depth: false,
+        entrypoints: false,
+        errors: true,
+        errorDetails: true,
+        hash: true,
+        modules: false,
+        moduleTrace: false,
+        performance: false,
+        providedExports: false,
+        publicPath: false,
+        reasons: false,
+        source: false,
+        timings: true,
+        usedExports: false,
+        version: false,
+        warnings: true
+    }
   },
   devtool: 'eval',
   output: {
